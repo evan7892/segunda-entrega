@@ -1,0 +1,17 @@
+
+.tituloclass{
+    border-style: double;
+    width: 10px;
+    color: black;
+    border-top: 10px red;
+    border-right: 15px red;
+    border-bottom: 10px red;
+    border-left: 15px red;
+    color: rgb(8, 106, 235);
+}
+.tituloiframe{
+    color: rgb(35, 0, 51);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: narrower;
+}

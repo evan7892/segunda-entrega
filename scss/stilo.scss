@@ -1,0 +1,1024 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(214, 237, 255);
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+.formulario{
+    margin: 50px;
+    background-color: rgb(121, 121, 121);
+    padding: 20px;
+}
+.titulo{
+    font-family: 'Ranchers', cursive;
+    color: rgb(255, 168, 214);
+    font-size: 3rem;
+    margin-top: 5px;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+.logo-layout{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+    grid-template-rows: auto  ;
+    align-items: center;
+    margin-top: 40px;
+}
+.logo-layout-uni{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+    grid-template-rows: 1fr ;
+    align-items: center;
+    margin-top: 40px;
+}
+.logo-layout-uni .logo-ubi{
+    grid-column: 1 / 2;
+    justify-content: flex-start;
+}
+.logo-layout .logo-ubi{
+    grid-column: 1 / 2;
+    justify-content: flex-start;
+}
+.logo-layout-uni .titulo {
+    grid-column: 2 / 5;
+    grid-row: 1 / 1;
+}
+.logo-layout .titulo {
+    grid-column: 2 / 5;
+    grid-row: 1 / 1;
+}
+.logo-layout .navbar-layout{
+    grid-column: 2 / 10;
+    grid-row: 1 / 1;
+}
+.logo-layout-uni .navbar-layout{
+    grid-column: 2 / 10;
+    grid-row: 1 / 1;
+}
+.logo-layout-uni .shopping-car{
+    grid-column: 10 / 10;
+    margin-left: 30px;
+}
+.logo-layout .shopping-car{
+    grid-column: 10 / 10;
+    margin-left: 30px;
+}
+.carrito{
+    width: 30px;
+    margin-top: 8px;
+    margin-left: 15px;
+    justify-content: center;
+}
+ul ul{
+    position: absolute;
+    display: none;
+}
+ul ul li{
+    display: block;
+}
+ul li:hover ul{
+    display: block;
+}
+.menu{
+    list-style-type: none;
+    font-family: 'Radio Canada', sans-serif;
+    background-color: #f2feff;
+    padding: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 15%;
+    margin-top: 55px;
+}
+.menu li{
+
+    text-align: center;
+    margin: 0,5rem;
+    padding: 0,5rem;
+    font-size: 40pxrem;
+}
+.imagenLogo{
+    margin-left: 16px;
+}
+.imagenLogoNina{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.imagenNinos{
+    margin-left: 75px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    position: static;
+}
+.portadaNina{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    margin-left: 500px;
+}
+
+.menuNina{
+    background-color:rgb(255, 228, 243) ;
+    padding: 10px;
+}
+.menuNino{
+    background-color: rgb(219, 251, 255);
+    padding: 10px;
+}
+.menuUni{
+    background-color: white;
+    padding: 10px;
+}
+.imgSecundaria{
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    height: 50px;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.img{
+    margin-left: 95px;
+    border: 6px solid rgb(205, 228, 255);
+    background-color: rgb(255, 203, 255);
+}
+.subtitulo{
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 2rem;
+    color: rgb(0, 132, 255);
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.contador{
+    margin-left: 520px;
+    margin-bottom: 60px;
+}
+.contacto1{
+    margin-top: 35px;
+}
+.tituloBlog{
+    font-family: 'Ranchers', cursive;
+    color: rgb(17, 42, 184);
+    margin: 10px;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 25px;
+}
+.blog1{
+    font-family: 'Radio Canada', sans-serif;
+    margin: 20px;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+.blog2{
+    font-family: 'Radio Canada', sans-serif;
+    margin: 20px;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+.camiseta1{
+    font-family: 'Radio Canada', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(44, 44, 44);
+    font-size: 1rem;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.camiseta2{
+    font-family: 'Radio Canada', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(253, 101, 208);
+    font-size: 1rem;
+    margin-top: 10px;
+    text-decoration: none;
+}.camiseta3{
+    font-family: 'Radio Canada', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(25, 68, 255);
+    font-size: 1rem;
+    margin-top: 10px;
+    text-decoration: none; 
+}
+.tituloNino{
+    font-family: 'Ranchers', cursive;
+    color: rgb(116, 135, 245);
+    font-size: 3rem;
+    text-align: start;
+    grid-column: 2 / 5;
+    grid-row: 1;
+}
+.tituloNina{
+    font-family: 'Ranchers', cursive;
+    color: rgb(255, 168, 214);
+    margin: 20px;
+    font-size: 3rem;
+    text-align: center;
+}
+.tituloUni{
+    font-family: 'Ranchers', cursive;
+    color: rgb(255, 168, 214);
+    margin: 20px;
+    font-size: 3rem;
+    text-align: center;
+}
+.formulario{
+    margin-left: 45px;
+    margin-right: 45px;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 1rem;
+    color: rgb(25, 68, 255);
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.tituloFormulario{
+    font-family: 'Ranchers', cursive;
+    color: rgb(255, 168, 214);
+    margin: 10px;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 30px;
+}
+.contacto{
+    margin-top: 35px;
+}
+.tituloContacto{
+    font-family: 'Radio Canada', sans-serif;
+    color: rgb(255, 168, 214);
+    margin: 20px;
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+footer{
+    width: 100%;
+    background-color: rgb(245, 137, 227);
+    color: white;
+    padding-top: 30px;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.container-body{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.colum1{
+    max-width: 400px;
+}
+.colum1 h1{
+    font-size: 22px;
+    font-family: 'Radio Canada', sans-serif;
+}
+.colum1 p{
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.colum2{
+    max-width: 400px;
+}
+.colum2 h1{
+    font-size: 22px;
+    font-family: 'Radio Canada', sans-serif;
+}
+.colum2 .row{
+    margin-top: 15px;
+    display: flex;
+}
+.row img{
+    width: 60px;
+    height: 36px;
+}
+.row label{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: #ffffff;
+}
+.colum3{
+    max-width: 400px;
+}
+.colum3 h1{
+    font-size: 22px;
+    font-family: 'Radio Canada', sans-serif;
+}
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+.row2 label{
+    margin-left: 20px;
+    max-width: 150px;
+    margin-top: 10px;
+}
+.container-footer{
+    width: 100%;
+    background-color: #747be6;
+    padding: 20px;
+}
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    margin-top: 100px;
+}
+.copyright{
+    color: #ffffff;
+}
+.copyright a{
+    color: #ffffff;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.information a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.container-galeria-nina{
+    display: flex;
+    width: 350px;
+    height: 50px;
+    margin: 10px;
+    padding: 15px;
+}
+.galeriaNina img{
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: pink;
+    margin-top: 100px;
+}
+.container-galeria-nina p{
+    text-align: center;
+    font-family: 'Radio Canada', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.container-all-nina2 p {
+    text-align: center;
+    font-family: 'Radio Canada', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.container-all-nina3 p {
+    text-align: center;
+    font-family: 'Radio Canada', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.container-all-uni p {
+    text-align: center;
+    font-family: 'Radio Canada', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.container-all-uni2 p {
+    text-align: center;
+    font-family: 'Radio Canada', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.container-all-nina2{
+    grid-column: 3 / 6;
+    grid-row: 1 / 3;
+    display: flex;
+    flex-direction: row;
+    margin-top: 530px;
+}
+.container-all-uni2{
+    grid-column: 3 / 6;
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: row;
+
+}
+.container-all-uni{
+    grid-column: 1 / 6;
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: row;  
+}
+.container-all-uni h4{
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.container-all-nina h4{
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.container-all-nina2 h4{
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.container-all-uni2 h4{
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.container-all-nina2 h4 a{
+    text-decoration: none; color: rgb(147, 61, 245);
+}
+.container-all-uni2 h4 a{
+    text-decoration: none; color: rgb(147, 61, 245);
+}
+.container-all-uni h4 a{
+    text-decoration: none; color: rgb(147, 61, 245);
+}
+.layout-nina{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.layout-uni{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.subtituloNina{
+    grid-column: 1 / 10;
+    grid-row: 1 / 2;
+    text-align: center;
+    font-family: 'Radio Canada', sans-serif;
+    margin-top: 530px;
+    color: rgb(255, 96, 234);
+    font-size: 1.4rem;
+}
+.subtituloUnisex{
+    grid-column: 1 / 10;
+    grid-row: 1 / 2;
+    text-align: center;
+    font-family: 'Radio Canada', sans-serif;
+    margin-top: 650px;
+    color: rgb(255, 96, 234);
+    font-size: 1.4rem;
+}
+.portadaNina1{
+    grid-column: 2 / 7;
+    grid-row: 1 / 1;
+}
+.portadaNina{
+    margin: 10px;
+    padding: 10px;
+    width: 600px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.portadaUnisex{
+    width: 500px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.container-all-nina{
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    margin-top: 500px;
+}
+.container-all-nina3{
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    margin-top: 700px;
+}
+.galeriaNino img{
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(149, 199, 255);
+    margin-top: 100px;
+}
+.img1{
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.img2{
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.img3{
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.img4{
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.container-main{
+    display: grid;
+    grid-template-columns:  10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: repeat(3, 1fr) ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subtitulo{
+grid-column: 4 / 8;
+grid-row: 2 / 3;
+margin-left: auto;
+margin-right: auto;
+}
+.imagenNinos{
+width: 1000px;
+margin: 10px;
+padding: 10px;
+margin-top: 40px;
+align-items: center;
+}   
+.imagenNinos1{
+    grid-column: 2 / 4;
+} 
+.contador{
+grid-column: 4 / 8;
+grid-row: 2 / 2;
+margin-left: auto;
+margin-right: auto;
+margin-top: 200px;
+}
+.container-padre-img0 img{
+    width: 300px;
+    background-color: pink;
+    padding: 10px;
+
+}
+.container-padre-img2 img{
+    width: 300px;
+    background-color: pink;
+    padding: 10px;
+
+}
+.container-padre-img3 img{
+    width: 300px;
+    background-color: pink;
+    padding: 10px;
+
+}
+.container-padre-img0 h5:hover{
+    background-color: pink;
+    border-radius: 30%;
+}
+.container-padre-img2 h5:hover{
+    background-color: rgb(173, 218, 255);
+    border-radius: 30%;
+}
+.container-padre-img3 h5:hover{
+    background-color: rgb(255, 173, 251);
+    border-radius: 30%;
+}
+.container-padre-img0 h5{
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+}
+.container-padre-img2 h5{
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+}
+.container-padre-img3 h5{
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+}
+.container-padre-img0{
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+}
+.container-padre-img2{
+    grid-column: 5 / 7;
+    grid-row: 3 / 4;
+}
+.container-padre-img3{
+    grid-column: 8 / 10;
+    grid-row: 3 / 4;   
+}
+.nav-item:hover{
+    background-color: #7dd6fa;
+}
+.navbar-nav a{
+    font-size: 20px;
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: normal;
+}
+
+@media only screen and (max-width:1000px){
+    .logo-layout{
+        position: relative;
+    }
+    .logo-layout-uni{
+        position: relative;
+    }
+    .tituloNino{
+        grid-column: 2 / 7;
+    }
+    .carrito{
+        display: none;
+    }
+    .layout-nina{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .layout-uni{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .portadaNina1{
+        grid-column: 2 / 5;
+        align-items: center;
+        margin-left: 80px;
+    }
+    .portadaUnisex{
+        width: 100%;
+        align-items: center; 
+    }
+    .subtituloNina{
+        font-size: 1rem;
+        justify-content: flex-start;
+        margin: 10%;
+        grid-row: 1 / 3;
+        grid-column: 2 / 5;
+        text-align: center;
+        margin-top: 400px;
+    }
+    .portadaNina{
+        width: 100%;
+        align-items: center; 
+    }
+    .container-galeria-nina{
+        display: flex;
+        flex-wrap: wrap;
+    } 
+    .container-all-nina{
+        grid-row: 1 / 6;
+        grid-column: 4 / 6;
+        align-items: center;
+        margin-top: 600px;
+    }
+    .container-all-uni{
+        grid-row: 1 / 2;
+        grid-column: 4 / 6;
+        align-items: center;
+        margin-top: 200px;
+    }
+    .container-all-uni2{
+        grid-row: 1/ 6;
+        grid-column: 2 / 4;
+        margin-top: 530px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .container-all-nina2{
+        grid-row: 1 / 6;
+        grid-column: 2 / 4;
+        margin-top: 630px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .galeriaNino img{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-layout .bars{
+        display: block;
+        grid-column: 10 / 10; 
+        font-size: 2rem;
+        cursor: pointer; 
+    }
+    .titulo {
+        font-size: 3rem;
+    }
+    .imagenLogo{
+        display: none;
+    }
+    .imgSecundaria{
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-rows: auto auto auto;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container-body{
+        padding: 15px;
+    }
+    .imagenNinos{
+        width: 700px;
+        grid-column: 1 / 10;
+    }
+    .container-padre-img0 img{
+        width: 200px;
+        background-color: pink;
+        padding: 10px;
+    
+    }
+    .container-padre-img2 img{
+        width: 200px;
+        background-color: pink;
+        padding: 10px;
+    
+    }
+    .container-padre-img3 img{
+        width: 200px;
+        background-color: pink;
+        padding: 10px;
+    
+    }
+}
+@media screen and (max-width: 1000px){
+    .container-body{
+        flex-wrap: wrap;
+    }
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }   
+}
+@media only screen and (max-width:600px){
+    .layout-nina{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .layout-uni{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .container-main{
+        display: grid;
+        grid-template-columns:  10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+        grid-template-rows: repeat(4, 1fr) ;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .subtituloNina{
+        font-size: 1rem;
+        justify-content: flex-start;
+        margin: 10%;
+        grid-column: 1 / 2;
+        grid-row: 1 / 1;
+    }
+    .logo-layout{
+        position: relative;
+    }
+    .carrito{
+        display: none;
+    }
+    .logo-layout .bars{
+        display: block;
+        grid-column: 10 / 10; 
+        font-size: 2rem;
+        cursor: pointer; 
+    }
+    .navbar-layout h1 {
+        font-size: 2.5rem;
+    }
+    .imagenLogo{
+        display: none;
+    }
+    .imagenNinos{
+        grid-column: 1 / 4;
+        width: 100%;
+    }
+    .container-padre-img{
+        min-width: 80%;
+        display: grid;
+        justify-content: center;
+        font-size: auto;
+        grid-template-rows: repeat(3, 1fr);
+        margin-top: 10px;
+    }
+    .imgSecundaria{
+        display: flex;
+    }
+    footer{
+        margin-top: 100px;
+    }
+    .contador{
+        display: none;
+    }
+    .container-body{
+        padding: 15px;
+    }
+    .portadaNina1{
+        grid-column: 2 / 3;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+    
+    .tituloNino{
+        grid-column: 2 / 8;
+    }
+    .subtituloNina{
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+    }
+    .subtituloUnisex{
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+    }
+    .container-all-uni{
+        grid-column: 2 / 4;
+        grid-row: 2 / 6;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-all-uni2{
+        grid-column: 2 / 4;
+        grid-row: 2 / 4;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-all-nina{
+        grid-column: 2 / 4;
+        grid-row: 4 / 6;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-all-nina2{
+        grid-column: 2 / 4;
+        grid-row: 2 / 4;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .imagenNinos{
+        width: 300px;
+        grid-column: 1 / 2;
+        align-items: center;
+    }
+    .subtitulo{
+        grid-column: 4 / 9;
+        font-size: 1.5rem;
+    } 
+   .container-padre-img0{
+        grid-column: 4 / 8;
+    }
+    .container-padre-img2{
+        grid-column: 4 / 8;
+        grid-row: 4 / 5;
+    }
+    .container-padre-img3{
+        grid-column: 4 / 8;
+        grid-row: 5 / 6; 
+    }
+}
+@media only screen and (max-width:380px){
+    .layout-nina{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+    }
+    .layout-uni{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .container-all-uni{
+        grid-row: 1 / 4;
+        grid-column: 1 / 2;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+    .container-all-nina{
+        grid-row: 2 / 4;
+        grid-column: 1 / 2;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-all-uni2{
+        grid-row: 4 / 6;
+        grid-column: 1 / 2;
+        margin-left: 35px;
+        margin-right: auto;
+        margin-top: 700px;
+    }
+    .container-all-nina2{
+        grid-row: 5 / 9;
+        grid-column: 1 / 2;
+        margin-left: 35px;
+        margin-right: auto;
+        margin-top: 190px;
+    }
+    .container-body{
+        flex-wrap: wrap;
+        margin-left: 30px;
+    }
+    .navbar-layout .titulo {
+        font-size: 1rem;
+    }
+    .subtituloNina{
+        grid-column: 1 / 4;
+        grid-row: 2 / 3;
+    }
+    .subtituloUnisex{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        margin-top: 500px;
+        margin-bottom: none;
+    }
+    .portadaNina1{
+        width: 250px;
+        grid-column: 1 / 1;
+    }
+    .tituloNino{
+        grid-column: 2 / 9;
+    }
+    .logo-layout .titulo {
+        font-size: 2.5rem;
+        text-align: center;
+        grid-column: 2 / 10;
+    }
+    .logo-layout-uni .titulo {
+        font-size: 2.5rem;
+        text-align: center;
+        grid-column: 2 / 10;
+    }
+    .imagenNinos{
+        width: 250px;
+    }
+    .subtitulo{
+        margin-top: 5px;
+    }
+    .container-padre-img0{
+        grid-column: 3 / 10;
+        margin-top: 10px;
+    }
+    .container-padre-img2{
+        grid-column: 3 / 10;
+        grid-row: 4 / 5;
+        margin-top: 10px;
+    }
+    .container-padre-img3{
+        grid-column: 3 / 10;
+        grid-row: 5 / 6; 
+    }
+}
+
