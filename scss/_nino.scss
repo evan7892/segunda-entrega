@@ -21,18 +21,17 @@
 
 .logo-layout-nino{
 @include navbar-nino () ;
-}
-
-.logo-layout-nino .logo-ubi{
-@include logo-ubi-nino();
-}
-.logo-layout-nino .titulo {
-    @include titulo-nino();
-}
-.logo-layout-nino .navbar-layout{
-    @include navbar-ubi-nino();
-}
-.logo-layout-nino .shopping-car{
-    grid-column: 10 / 10;
-    margin-left: 30px;
+    .logo-ubi{
+    @include logo-ubi-nino();
+    }
+    .titulo {
+        @include titulo-nino();
+    }
+    .navbar-layout{
+        @include navbar-ubi-nino();
+    }
+    .shopping-car{
+        grid-column: 10 / 10;
+        margin-left: 30px;
+    }
 }

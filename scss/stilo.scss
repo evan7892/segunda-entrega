@@ -468,6 +468,11 @@ footer{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
 }
+.layout-nina{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
 .subtituloNina{
     grid-column: 1 / 10;
     grid-row: 1 / 2;

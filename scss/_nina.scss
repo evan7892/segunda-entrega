@@ -6,7 +6,7 @@
     align-items: center;
     margin-top: 40px;
 };
-@mixin logo-ubi {
+@mixin logo-ubi-nina {
     grid-column: 1 / 2;
     justify-content: flex-start;
 }
@@ -18,32 +18,20 @@
     grid-column: 2 / 10;
     grid-row: 1 / 1;
 }
-@mixin layout-nina {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-}
 .logo-layout-nina{
 @include navbar-nina () ;
-}
 
-.logo-layout-nina .logo-ubi{
-@include logo-ubi();
-}
-.logo-layout-nina .titulo {
-    @include titulo-nina();
-}
-.logo-layout-nina .navbar-layout{
-    @include navbar-ubi();
-}
-.logo-layout-nina .shopping-car{
-    grid-column: 10 / 10;
-    margin-left: 30px;
-}
-.layout-nina{
-    @include layout-nina();
-}
-.menuNina{
-    background-color:rgb(255, 228, 243) ;
-    padding: 10px;
+    .logo-ubi{
+    @include logo-ubi-nina();
+    }
+    .titulo {
+        @include titulo-nina();
+    }
+    .navbar-layout{
+        @include navbar-ubi();
+    }
+    .shopping-car{
+        grid-column: 10 / 10;
+        margin-left: 30px;
+    }
 }
