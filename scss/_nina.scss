@@ -17,7 +17,8 @@
 @mixin navbar-ubi {
     grid-column: 2 / 10;
     grid-row: 1 / 1;
-}
+} 
+//navbar de la sección de niña//
 .logo-layout-nina{
 @include navbar-nina () ;
 
@@ -34,4 +35,23 @@
         grid-column: 10 / 10;
         margin-left: 30px;
     }
+}
+//titulo de la sección de ropa para bebé niña//
+.tituloNina{
+    font-family: 'Ranchers', cursive;
+    color: rgb(255, 168, 214);
+    margin: 20px;
+    font-size: 3rem;
+    text-align: center;
+}
+//logo de la sección de ropa bebé niña//
+.imagenLogoNina{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+//portada de la sección de ropa para bebé niña//
+.portadaNina{
+    margin: 20px;
+    padding: 10px;
+    margin-left: 500px;
 }

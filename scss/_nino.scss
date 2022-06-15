@@ -15,10 +15,10 @@
     grid-row: 1 / 1;
 }
 @mixin navbar-ubi-nino {
-    grid-column: 2 / 10;
+    grid-column: 2   / 10;
     grid-row: 1 / 1;
 }
-
+//Nav-bar de la sección de niños
 .logo-layout-nino{
 @include navbar-nino () ;
     .logo-ubi{
@@ -34,4 +34,13 @@
         grid-column: 10 / 10;
         margin-left: 30px;
     }
+}
+//titulo de la sección de niños
+.tituloNino{
+    font-family: 'Ranchers', cursive;
+    color: rgb(116, 135, 245);
+    font-size: 3rem;
+    text-align: start;
+    grid-column: 2 / 5;
+    grid-row: 1;
 }

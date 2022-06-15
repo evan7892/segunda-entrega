@@ -19,11 +19,7 @@ header{
     display: flex;
     flex-direction: column;
 }
-.formulario{
-    margin: 50px;
-    background-color: rgb(121, 121, 121);
-    padding: 20px;
-}
+//titulo del index
 .titulo{
     font-family: 'Ranchers', cursive;
     color: rgb(255, 168, 214);
@@ -32,6 +28,7 @@ header{
     margin-right: 40px;
     margin-left: 10px;
 }
+//nav-bar del index
 .logo-layout{
     width: 100%;
     display: grid;
@@ -56,7 +53,15 @@ header{
     grid-column: 10 / 10;
     margin-left: 30px;
 }
-
+//hover de la navbar
+.nav-item:hover{
+    background-color: #7dd6fa;
+}
+.navbar-nav a{
+    font-size: 20px;
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: normal;
+}
 .carrito{
     width: 30px;
     margin-top: 8px;
@@ -97,22 +102,13 @@ ul li:hover ul{
 .imagenLogo{
     margin-left: 16px;
 }
-.imagenLogoNina{
-    margin-left: 50px;
-    margin-top: 20px;
-}
+//portada del index
 .imagenNinos{
     margin-left: 75px;
     text-align: center;
     margin-top: 25px;
     margin-bottom: 30px;
     position: static;
-}
-.portadaNina{
-    text-align: center;
-    margin: 20px;
-    padding: 10px;
-    margin-left: 500px;
 }
 .menuNino{
     background-color: rgb(219, 251, 255);
@@ -159,18 +155,7 @@ ul li:hover ul{
     text-align: center;
     margin-top: 25px;
 }
-.blog1{
-    font-family: 'Radio Canada', sans-serif;
-    margin: 20px;
-    margin-top: 40px;
-    font-size: 1rem;
-}
-.blog2{
-    font-family: 'Radio Canada', sans-serif;
-    margin: 20px;
-    margin-top: 40px;
-    font-size: 1rem;
-}
+//imagenes del index
 .camiseta1{
     font-family: 'Radio Canada', sans-serif;
     text-decoration: none;
@@ -197,28 +182,6 @@ ul li:hover ul{
     margin-top: 10px;
     text-decoration: none; 
 }
-.tituloNino{
-    font-family: 'Ranchers', cursive;
-    color: rgb(116, 135, 245);
-    font-size: 3rem;
-    text-align: start;
-    grid-column: 2 / 5;
-    grid-row: 1;
-}
-.tituloNina{
-    font-family: 'Ranchers', cursive;
-    color: rgb(255, 168, 214);
-    margin: 20px;
-    font-size: 3rem;
-    text-align: center;
-}
-.tituloUni{
-    font-family: 'Ranchers', cursive;
-    color: rgb(255, 168, 214);
-    margin: 20px;
-    font-size: 3rem;
-    text-align: center;
-}
 .formulario{
     margin-left: 45px;
     margin-right: 45px;
@@ -237,17 +200,7 @@ ul li:hover ul{
     text-align: center;
     margin-top: 30px;
 }
-.contacto{
-    margin-top: 35px;
-}
-.tituloContacto{
-    font-family: 'Radio Canada', sans-serif;
-    color: rgb(255, 168, 214);
-    margin: 20px;
-    font-size: 3rem;
-    margin-top: 30px;
-    margin-left: 30px;
-}
+//contenido del footer
 footer{
     width: 100%;
     background-color: rgb(245, 137, 227);
@@ -627,14 +580,6 @@ margin-top: 200px;
 .container-padre-img3{
     grid-column: 8 / 10;
     grid-row: 3 / 4;   
-}
-.nav-item:hover{
-    background-color: #7dd6fa;
-}
-.navbar-nav a{
-    font-size: 20px;
-    font-family: 'Radio Canada', sans-serif;
-    font-weight: normal;
 }
 
 @media only screen and (max-width:1000px){

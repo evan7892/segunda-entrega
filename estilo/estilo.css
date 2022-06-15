@@ -22,134 +22,6 @@
   grid-column: 10 / 10;
   margin-left: 30px; }
 
-.logo-layout-nina {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-  grid-template-rows: 1fr;
-  align-items: center;
-  margin-top: 40px; }
-  .logo-layout-nina .logo-ubi {
-    grid-column: 1 / 2;
-    justify-content: flex-start; }
-  .logo-layout-nina .titulo {
-    grid-column: 2 / 5;
-    grid-row: 1 / 1; }
-  .logo-layout-nina .navbar-layout {
-    grid-column: 2 / 10;
-    grid-row: 1 / 1; }
-  .logo-layout-nina .shopping-car {
-    grid-column: 10 / 10;
-    margin-left: 30px; }
-
-.logo-layout-nino {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-  grid-template-rows: 1fr;
-  align-items: center;
-  margin-top: 40px; }
-  .logo-layout-nino .logo-ubi {
-    grid-column: 1 / 2;
-    justify-content: flex-start; }
-  .logo-layout-nino .titulo {
-    grid-column: 2 / 5;
-    grid-row: 1 / 1; }
-  .logo-layout-nino .navbar-layout {
-    grid-column: 2 / 10;
-    grid-row: 1 / 1; }
-  .logo-layout-nino .shopping-car {
-    grid-column: 10 / 10;
-    margin-left: 30px; }
-
-.logo-layout-uni {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-  grid-template-rows: 1fr;
-  align-items: center;
-  margin-top: 40px; }
-  .logo-layout-uni .logo-ubi {
-    grid-column: 1 / 2;
-    justify-content: flex-start; }
-  .logo-layout-uni .titulo {
-    grid-column: 2 / 5;
-    grid-row: 1 / 1; }
-  .logo-layout-uni .navbar-layout {
-    grid-column: 2 / 10;
-    grid-row: 1 / 1; }
-  .logo-layout-uni .shopping-car {
-    grid-column: 10 / 10;
-    margin-left: 30px; }
-
-.logo-layout {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-  grid-template-rows: auto;
-  align-items: center;
-  margin-top: 40px; }
-
-.logo-layout .logo-ubi {
-  grid-column: 1 / 2;
-  justify-content: flex-start; }
-
-.logo-layout .titulo {
-  grid-column: 2 / 5;
-  grid-row: 1 / 1; }
-
-.logo-layout .navbar-layout {
-  grid-column: 2 / 10;
-  grid-row: 1 / 1; }
-
-.logo-layout .shopping-car {
-  grid-column: 10 / 10;
-  margin-left: 30px; }
-
-.logo-layout {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-  grid-template-rows: auto;
-  align-items: center;
-  margin-top: 40px; }
-
-.logo-layout .logo-ubi {
-  grid-column: 1 / 2;
-  justify-content: flex-start; }
-
-.logo-layout .titulo {
-  grid-column: 2 / 5;
-  grid-row: 1 / 1; }
-
-.logo-layout .navbar-layout {
-  grid-column: 2 / 10;
-  grid-row: 1 / 1; }
-
-.logo-layout .shopping-car {
-  grid-column: 10 / 10;
-  margin-left: 30px; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-a {
-  text-decoration: none; }
-
-body {
-  background-color: #d6edff; }
-
-header {
-  display: flex;
-  flex-direction: column; }
-
-.formulario {
-  margin: 50px;
-  background-color: #797979;
-  padding: 20px; }
-
 .titulo {
   font-family: 'Ranchers', cursive;
   color: #ffa8d6;
@@ -181,6 +53,14 @@ header {
 .logo-layout .shopping-car {
   grid-column: 10 / 10;
   margin-left: 30px; }
+
+.nav-item:hover {
+  background-color: #7dd6fa; }
+
+.navbar-nav a {
+  font-size: 20px;
+  font-family: 'Radio Canada', sans-serif;
+  font-weight: normal; }
 
 .carrito {
   width: 30px;
@@ -221,22 +101,12 @@ ul li:hover ul {
 .imagenLogo {
   margin-left: 16px; }
 
-.imagenLogoNina {
-  margin-left: 50px;
-  margin-top: 20px; }
-
 .imagenNinos {
   margin-left: 75px;
   text-align: center;
   margin-top: 25px;
   margin-bottom: 30px;
   position: static; }
-
-.portadaNina {
-  text-align: center;
-  margin: 20px;
-  padding: 10px;
-  margin-left: 500px; }
 
 .menuNino {
   background-color: #dbfbff;
@@ -283,6 +153,301 @@ ul li:hover ul {
   text-align: center;
   margin-top: 25px; }
 
+.camiseta1 {
+  font-family: 'Radio Canada', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: #2c2c2c;
+  font-size: 1rem;
+  margin-top: 10px;
+  text-decoration: none; }
+
+.camiseta2 {
+  font-family: 'Radio Canada', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: #fd65d0;
+  font-size: 1rem;
+  margin-top: 10px;
+  text-decoration: none; }
+
+.camiseta3 {
+  font-family: 'Radio Canada', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: #1944ff;
+  font-size: 1rem;
+  margin-top: 10px;
+  text-decoration: none; }
+
+footer {
+  width: 100%;
+  background-color: #f589e3;
+  color: white;
+  padding-top: 30px;
+  margin-top: 100px;
+  border-radius: 30px; }
+
+.container-footer-all {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto; }
+
+.container-body {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px; }
+
+.colum1 {
+  max-width: 400px; }
+
+.colum1 h1 {
+  font-size: 22px;
+  font-family: 'Radio Canada', sans-serif; }
+
+.colum1 p {
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 20px; }
+
+.colum2 {
+  max-width: 400px; }
+
+.colum2 h1 {
+  font-size: 22px;
+  font-family: 'Radio Canada', sans-serif; }
+
+.colum2 .row {
+  margin-top: 15px;
+  display: flex; }
+
+.row img {
+  width: 60px;
+  height: 36px; }
+
+.row label {
+  margin-top: 10px;
+  margin-left: 15px;
+  color: #ffffff; }
+
+.colum3 {
+  max-width: 400px; }
+
+.colum3 h1 {
+  font-size: 22px;
+  font-family: 'Radio Canada', sans-serif; }
+
+.row2 {
+  margin-top: 20px;
+  display: flex; }
+
+.row2 img {
+  width: 36px;
+  height: 36px; }
+
+.row2 label {
+  margin-left: 20px;
+  max-width: 150px;
+  margin-top: 10px; }
+
+.container-footer {
+  width: 100%;
+  background-color: #747be6;
+  padding: 20px; }
+
+.footer {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between; }
+
+footer {
+  margin-top: 100px; }
+
+.copyright {
+  color: #ffffff; }
+
+.copyright a {
+  color: #ffffff;
+  text-decoration: none;
+  color: white;
+  font-weight: bold; }
+
+.information a {
+  text-decoration: none;
+  color: #ffffff; }
+
+.logo-layout-nina {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 1fr;
+  align-items: center;
+  margin-top: 40px; }
+  .logo-layout-nina .logo-ubi {
+    grid-column: 1 / 2;
+    justify-content: flex-start; }
+  .logo-layout-nina .titulo {
+    grid-column: 2 / 5;
+    grid-row: 1 / 1; }
+  .logo-layout-nina .navbar-layout {
+    grid-column: 2 / 10;
+    grid-row: 1 / 1; }
+  .logo-layout-nina .shopping-car {
+    grid-column: 10 / 10;
+    margin-left: 30px; }
+
+.tituloNina {
+  font-family: 'Ranchers', cursive;
+  color: #ffa8d6;
+  margin: 20px;
+  font-size: 3rem;
+  text-align: center; }
+
+.imagenLogoNina {
+  margin-left: 50px;
+  margin-top: 20px; }
+
+.portadaNina {
+  margin: 20px;
+  padding: 10px;
+  margin-left: 500px; }
+
+.logo-layout-nino {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 1fr;
+  align-items: center;
+  margin-top: 40px; }
+  .logo-layout-nino .logo-ubi {
+    grid-column: 1 / 2;
+    justify-content: flex-start; }
+  .logo-layout-nino .titulo {
+    grid-column: 2 / 5;
+    grid-row: 1 / 1; }
+  .logo-layout-nino .navbar-layout {
+    grid-column: 2   / 10;
+    grid-row: 1 / 1; }
+  .logo-layout-nino .shopping-car {
+    grid-column: 10 / 10;
+    margin-left: 30px; }
+
+.tituloNino {
+  font-family: 'Ranchers', cursive;
+  color: #7487f5;
+  font-size: 3rem;
+  text-align: start;
+  grid-column: 2 / 5;
+  grid-row: 1; }
+
+.logo-layout-uni {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 1fr;
+  align-items: center;
+  margin-top: 40px; }
+  .logo-layout-uni .logo-ubi {
+    grid-column: 1 / 2;
+    justify-content: flex-start; }
+  .logo-layout-uni .titulo {
+    grid-column: 2 / 5;
+    grid-row: 1 / 1; }
+  .logo-layout-uni .navbar-layout {
+    grid-column: 2   / 10;
+    grid-row: 1 / 1; }
+  .logo-layout-uni .shopping-car {
+    grid-column: 10 / 10;
+    margin-left: 30px; }
+
+.tituloUni {
+  font-family: 'Ranchers', cursive;
+  color: #ffa8d6;
+  margin: 20px;
+  font-size: 3rem;
+  text-align: center; }
+
+.logo-layout {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: auto;
+  align-items: center;
+  margin-top: 40px; }
+
+.logo-layout .logo-ubi {
+  grid-column: 1 / 2;
+  justify-content: flex-start; }
+
+.logo-layout .titulo {
+  grid-column: 2 / 5;
+  grid-row: 1 / 1; }
+
+.logo-layout .navbar-layout {
+  grid-column: 2 / 10;
+  grid-row: 1 / 1; }
+
+.logo-layout .shopping-car {
+  grid-column: 10 / 10;
+  margin-left: 30px; }
+
+.contacto {
+  margin-top: 35px; }
+
+.tituloContacto {
+  font-family: 'Radio Canada', sans-serif;
+  color: #ffa8d6;
+  margin: 20px;
+  font-size: 3rem;
+  margin-top: 30px;
+  margin-left: 30px; }
+
+.formulario {
+  margin-left: 45px;
+  margin-right: 45px;
+  font-family: 'Radio Canada', sans-serif;
+  font-size: 1rem;
+  color: #1944ff;
+  margin-left: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin: 50px;
+  background-color: #797979;
+  padding: 20px; }
+
+.tituloFormulario {
+  font-family: 'Ranchers', cursive;
+  color: #ffa8d6;
+  margin: 10px;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 30px; }
+
+.logo-layout {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: auto;
+  align-items: center;
+  margin-top: 40px; }
+
+.logo-layout .logo-ubi {
+  grid-column: 1 / 2;
+  justify-content: flex-start; }
+
+.logo-layout .titulo {
+  grid-column: 2 / 5;
+  grid-row: 1 / 1; }
+
+.logo-layout .navbar-layout {
+  grid-column: 2 / 10;
+  grid-row: 1 / 1; }
+
+.logo-layout .shopping-car {
+  grid-column: 10 / 10;
+  margin-left: 30px; }
+
 .blog1 {
   font-family: 'Radio Canada', sans-serif;
   margin: 20px;
@@ -294,6 +459,152 @@ ul li:hover ul {
   margin: 20px;
   margin-top: 40px;
   font-size: 1rem; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #d6edff; }
+
+header {
+  display: flex;
+  flex-direction: column; }
+
+.titulo {
+  font-family: 'Ranchers', cursive;
+  color: #ffa8d6;
+  font-size: 3rem;
+  margin-top: 5px;
+  margin-right: 40px;
+  margin-left: 10px; }
+
+.logo-layout {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: auto;
+  align-items: center;
+  margin-top: 40px; }
+
+.logo-layout .logo-ubi {
+  grid-column: 1 / 2;
+  justify-content: flex-start; }
+
+.logo-layout .titulo {
+  grid-column: 2 / 5;
+  grid-row: 1 / 1; }
+
+.logo-layout .navbar-layout {
+  grid-column: 2 / 10;
+  grid-row: 1 / 1; }
+
+.logo-layout .shopping-car {
+  grid-column: 10 / 10;
+  margin-left: 30px; }
+
+.nav-item:hover {
+  background-color: #7dd6fa; }
+
+.navbar-nav a {
+  font-size: 20px;
+  font-family: 'Radio Canada', sans-serif;
+  font-weight: normal; }
+
+.carrito {
+  width: 30px;
+  margin-top: 8px;
+  margin-left: 15px;
+  justify-content: center; }
+
+ul ul {
+  position: absolute;
+  display: none; }
+
+ul ul li {
+  display: block; }
+
+ul li:hover ul {
+  display: block; }
+
+.menu {
+  list-style-type: none;
+  font-family: 'Radio Canada', sans-serif;
+  background-color: #f2feff;
+  padding: 10px;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 16px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 15%;
+  margin-top: 55px; }
+
+.menu li {
+  text-align: center;
+  margin: 0,5rem;
+  padding: 0,5rem;
+  font-size: 40pxrem; }
+
+.imagenLogo {
+  margin-left: 16px; }
+
+.imagenNinos {
+  margin-left: 75px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  position: static; }
+
+.menuNino {
+  background-color: #dbfbff;
+  padding: 10px; }
+
+.menuUni {
+  background-color: white;
+  padding: 10px; }
+
+.imgSecundaria {
+  display: flex;
+  flex-direction: row;
+  width: 50px;
+  height: 50px;
+  justify-content: space-between;
+  margin-left: 30px; }
+
+.img {
+  margin-left: 95px;
+  border: 6px solid #cde4ff;
+  background-color: #ffcbff; }
+
+.subtitulo {
+  font-family: 'Radio Canada', sans-serif;
+  font-size: 2rem;
+  color: #0084ff;
+  margin-left: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center; }
+
+.contador {
+  margin-left: 520px;
+  margin-bottom: 60px; }
+
+.contacto1 {
+  margin-top: 35px; }
+
+.tituloBlog {
+  font-family: 'Ranchers', cursive;
+  color: #112ab8;
+  margin: 10px;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 25px; }
 
 .camiseta1 {
   font-family: 'Radio Canada', sans-serif;
@@ -322,28 +633,6 @@ ul li:hover ul {
   margin-top: 10px;
   text-decoration: none; }
 
-.tituloNino {
-  font-family: 'Ranchers', cursive;
-  color: #7487f5;
-  font-size: 3rem;
-  text-align: start;
-  grid-column: 2 / 5;
-  grid-row: 1; }
-
-.tituloNina {
-  font-family: 'Ranchers', cursive;
-  color: #ffa8d6;
-  margin: 20px;
-  font-size: 3rem;
-  text-align: center; }
-
-.tituloUni {
-  font-family: 'Ranchers', cursive;
-  color: #ffa8d6;
-  margin: 20px;
-  font-size: 3rem;
-  text-align: center; }
-
 .formulario {
   margin-left: 45px;
   margin-right: 45px;
@@ -361,17 +650,6 @@ ul li:hover ul {
   font-size: 3rem;
   text-align: center;
   margin-top: 30px; }
-
-.contacto {
-  margin-top: 35px; }
-
-.tituloContacto {
-  font-family: 'Radio Canada', sans-serif;
-  color: #ffa8d6;
-  margin: 20px;
-  font-size: 3rem;
-  margin-top: 30px;
-  margin-left: 30px; }
 
 footer {
   width: 100%;
@@ -750,14 +1028,6 @@ footer {
 .container-padre-img3 {
   grid-column: 8 / 10;
   grid-row: 3 / 4; }
-
-.nav-item:hover {
-  background-color: #7dd6fa; }
-
-.navbar-nav a {
-  font-size: 20px;
-  font-family: 'Radio Canada', sans-serif;
-  font-weight: normal; }
 
 @media only screen and (max-width: 1000px) {
   .logo-layout {
